@@ -1,24 +1,30 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { trpc } from "../utils/trpc";
-import styles from "./index.module.css";
+// import { trpc } from "../utils/trpc";
+// import styles from "./index.module.css";
 
 const Home: NextPage = () => {
-  // const { data } = trpc.useQuery(["example.hello", { text: "from tRPC" }]);
-
   return (
     <>
       <Head>
-        <title>MASTREE Guitar</title>
+        <title>MASSTREE Guitar</title>
         <meta name="description" content="Learn guitar from home" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.containerOuter}>
-
-
-        {/* <div className={styles.helloFrom}>
-            {data ? <p>{data.greeting}</p> : <p>Loading...</p>}
-          </div> */}
+      <div>
+        <div>
+          <img src="" alt="" />
+        </div>
+        <div>
+          <h2>Heading for P</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            minus totam quae maiores, sunt aperiam id laboriosam eum? Vel
+            ratione iusto quos rerum commodi ut dolorum, recusandae impedit
+            dolor optio?
+          </p>
+        </div>
+        <span>Start your journey today</span>
       </div>
     </>
   );
