@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/navBar";
 // import { trpc } from "../utils/trpc";
 // import styles from "./index.module.css";
 
