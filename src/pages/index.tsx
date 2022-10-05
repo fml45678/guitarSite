@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import NavBar from "../../components/NavBar";
 // import { trpc } from "../utils/trpc";
 // import styles from "./index.module.css";
 
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Learn guitar from home" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavBar />
       <div>
         <div>
           <img src="" alt="" />
