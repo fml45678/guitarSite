@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>MASSTREE Guitar</title>
+        <title>LeMieux Studios Guitar</title>
         <meta name="description" content="Learn guitar from home" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,15 +18,12 @@ const Home: NextPage = () => {
           <img src="" alt="" />
         </div>
         <div>
-          <h2>Heading for P</h2>
+          <h2>Ready to learn Guitar?</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            minus totam quae maiores, sunt aperiam id laboriosam eum? Vel
-            ratione iusto quos rerum commodi ut dolorum, recusandae impedit
-            dolor optio?
+            Registration is now open. Group Guitar classes begin November 6th!
           </p>
         </div>
-        <span>Start your journey today</span>
+        <span>Sign up today</span>
       </div>
     </>
   );

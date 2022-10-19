@@ -1,8 +1,15 @@
 .container {
   display: flex;
+  justify-content: center;
+  column-gap: 9vw;
+  align-items: flex-end;
+  background-color: rgba(122, 117, 174, 0.4);
 }
 .lists {
   list-style: none;
   display: flex;
   column-gap: 1vw;
+}
+.title {
+  width: 5vw;
 }

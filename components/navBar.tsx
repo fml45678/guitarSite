@@ -5,8 +5,7 @@ const NavBar: NextPage = () => {
     <>
       <div className={styles.container}>
         <div>
-          <img src="" alt="" />
-          <h1>MASTREE Guitar</h1>
+          <h1 className={styles.title}>LEMIEUX STUDIOS GUITAR</h1>
         </div>
         <ul className={styles.lists}>
           <li>About</li>
