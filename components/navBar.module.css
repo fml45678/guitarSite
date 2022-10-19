@@ -8,8 +8,25 @@
 .lists {
   list-style: none;
   display: flex;
-  column-gap: 1vw;
+  column-gap: 2vw;
+  flex-wrap: wrap;
 }
 .title {
   width: 5vw;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    column-gap: unset;
+    align-items: flex-start;
+  }
+  .title {
+    width: 68vw;
+    margin-left: 4vw;
+  }
+  .lists {
+    gap: 3vw;
+    align-self: center;
+  }
 }
