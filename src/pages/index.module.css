@@ -2,18 +2,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  row-gap: 3vw;
+}
+.mainContent > * {
+  width: 55vw;
 }
 .signUp {
   font-size: 2vw;
+  width: unset;
   background-color: rgb(198, 198, 243);
   border-style: none;
   border-radius: 2vw;
   cursor: pointer;
 }
-.signUp:hover {
-  background-color: rgb(255, 0, 43);
-  color: white;
-  font-size: 2.2vw;
+@media screen and (min-width: 500px) {
+  .signUp:hover {
+    background-color: rgb(255, 0, 43);
+    color: white;
+    font-size: 2.2vw;
+  }
 }
 @media screen and (max-width: 500px) {
   .mainContent > * {

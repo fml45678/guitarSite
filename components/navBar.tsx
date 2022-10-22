@@ -9,9 +9,7 @@ const NavBar: NextPage = () => {
         </div>
         <ul className={styles.lists}>
           <li>About</li>
-          <li>Membership</li>
           <li>Calendar</li>
-          <li>Online Lessons</li>
           <li>Forum</li>
           <li>Contact</li>
         </ul>

@@ -15,17 +15,26 @@ const Home: NextPage = () => {
       </Head>
       <NavBar />
       <div>
-        <div>
-          <img src="" alt="" />
-        </div>
         <div className={styles.mainContent}>
           <h2>Ready to learn Guitar?</h2>
           <p>
-            Registration is now open. Group Guitar classes begin November 6th!
+            Registration is now open. Group Guitar classes begin November
+            6th-8th!
           </p>
           <Link href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2VF03638W82253700MLSHVZI">
             <button className={styles.signUp}>Sign up today</button>
           </Link>
+          <p>
+            In one 12 week session you can go from not knowing how to play
+            guitar to playing thousands!
+          </p>
+
+          <p>
+            When you sign up for guitar lessons you get one group lesson and one
+            review lesson each week. You will have access to a great community
+            of fellow guitar students, and plenty of instruction and guidance to
+            help you reach your goals.
+          </p>
         </div>
       </div>
     </>
