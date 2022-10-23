@@ -10,9 +10,11 @@
   display: flex;
   column-gap: 2vw;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 .title {
   width: 5vw;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
