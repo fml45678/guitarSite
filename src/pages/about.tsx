@@ -16,7 +16,7 @@ const About: NextPage = () => {
       <NavBar />
       <div className={styles.container}>
         <p className={styles.p}>
-          Group guitar lessons are starting this fall . If you are an absolute
+          Group guitar lessons are starting this fall. If you are an absolute
           beginner or intermediate guitarist, we have a class for you. Lessons
           take place weekly for 12 weeks, and by the time you finish you should
           be proficient in playing many songs. We will learn all of the most

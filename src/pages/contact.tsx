@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import NavBar from "../../components/navBar";
 // import { trpc } from "../utils/trpc";
-// import styles from "./index.module.css";
+import styles from "./contact.module.css";
 // import Link from "next/link";
 
 const Contact: NextPage = () => {
@@ -14,7 +14,12 @@ const Contact: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <div>Contact</div>
+      <div className={styles.container}>
+        <span className={styles.p}>
+          If you have any questions about lessons please send an email to
+          <a href="mailto:info@lemieuxstudios.com"> info@lemieuxstudios.com</a>
+        </span>
+      </div>
     </>
   );
 };

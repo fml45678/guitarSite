@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.p {
+  margin-top: 8vw;
+  width: 40vw;
+  line-height: 3vw;
+}
