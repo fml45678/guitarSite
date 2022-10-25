@@ -19,7 +19,7 @@ const Forum: NextPage = () => {
           <span>Subject:</span>
           <input type="text" />
           Message:
-          <textarea cols="30" rows="10"></textarea>
+          <textarea></textarea>
         </form>
       </div>
     </>
