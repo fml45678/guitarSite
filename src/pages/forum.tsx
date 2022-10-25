@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import NavBar from "../../components/navBar";
 // import { trpc } from "../utils/trpc";
-// import styles from "./index.module.css";
+import styles from "./forum.module.css";
 // import Link from "next/link";
 
 const Forum: NextPage = () => {
@@ -14,7 +14,14 @@ const Forum: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <div>Forum</div>
+      <div className={styles.container}>
+        <form className={styles.formContainer}>
+          <span>Subject:</span>
+          <input type="text" />
+          Message:
+          <textarea cols="30" rows="10"></textarea>
+        </form>
+      </div>
     </>
   );
 };
