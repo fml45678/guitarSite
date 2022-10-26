@@ -7,18 +7,18 @@
 .p {
   margin-top: 8vw;
   width: 60vw;
-  line-height: 3vw;
+  line-height: calc(8px + 3vw);
 }
 
 .rulesTitle {
   margin-top: 4vw;
   margin-bottom: 3vw;
   font-weight: 500;
-  font-size: 2vw;
+  font-size: calc(8px + 2vw);
 }
 
 .rules {
   width: 60vw;
-  line-height: 3vw;
+  line-height: calc(8px + 3vw);
   margin-bottom: 5vw;
 }

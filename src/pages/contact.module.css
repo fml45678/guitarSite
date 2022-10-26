@@ -5,5 +5,5 @@
 .p {
   margin-top: 8vw;
   width: 40vw;
-  line-height: 3vw;
+  line-height: calc(8px + 3vw);
 }
