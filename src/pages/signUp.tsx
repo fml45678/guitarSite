@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import NavBar from "../../components/navBar";
 // import { trpc } from "../utils/trpc";
-import styles from "./index.module.css";
-// import Link from "next/link";
+import styles from "./signUp.module.css";
+import Link from "next/link";
 
 const SignUp: NextPage = () => {
   return (
@@ -14,14 +14,20 @@ const SignUp: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <div>
+      <div className={styles.container}>
         <h2>Choose your lesson day</h2>
         <div className={styles.days}>
-          <button>Sundays</button>
-          <button>Mondays</button>
-          <button>Tuesdays</button>
+          <Link href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2VF03638W82253700MLSHVZI">
+            <button>Sundays</button>
+          </Link>
+          <Link href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2VF03638W82253700MLSHVZI">
+            <button>Mondays</button>
+          </Link>
+          <Link href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2VF03638W82253700MLSHVZI">
+            <button>Tuesdays</button>
+          </Link>
         </div>
-        <h3>Thurdays are review days</h3>
+        <h3>Thursdays are review days</h3>
       </div>
     </>
   );

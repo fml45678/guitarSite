@@ -21,7 +21,7 @@ const Home: NextPage = () => {
             Registration is now open. Group Guitar classes begin November
             6th-8th!
           </p>
-          <Link href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2VF03638W82253700MLSHVZI">
+          <Link href="/signUp">
             <button className={styles.signUp}>Sign up today</button>
           </Link>
           <p>
