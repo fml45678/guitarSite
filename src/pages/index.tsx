@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           <h2>Ready to learn Guitar?</h2>
           <p>
             Registration is now open. Group Guitar classes begin November
-            6th-8th!
+            20th-22th!
           </p>
           <Link href="/signUp">
             <button className={styles.signUp}>Sign up today</button>
