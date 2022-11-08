@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import NavBar from "../../components/navBar";
 // import { trpc } from "../utils/trpc";
-// import styles from "./index.module.css";
+import styles from "./calendar.module.css";
 // import Link from "next/link";
 
 const Calendar: NextPage = () => {
@@ -14,8 +14,13 @@ const Calendar: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <div>
-        <ul>
+      <div className={styles.mainContainer}>
+        <p className={styles.description}>
+          Each student will pick Sundays, Mondays, or Tuesdays for the main
+          lesson, and Thursdays will be a group review day. Extra days have been
+          added during some holidays.
+        </p>
+        <ul className={styles.calendar}>
           <li>Class 1: Sun Nov 20 - 22 Rev Nov, Fri 25</li>
           <li>Class 2: Sun Nov 26 - 29 Rev Dec 1</li>
           <li>Class 3: Sun Dec 4 - 6 Rev Dec 8</li>

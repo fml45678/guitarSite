@@ -1,0 +1,13 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  margin-top: 10vw;
+  width: 50vw;
+}
+.calendar {
+  margin-top: 4vw;
+  line-height: calc(8px + 3vw);
+}
