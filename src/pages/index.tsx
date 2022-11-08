@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           </Link>
           <p>
             In one 12 week session you can go from not knowing how to play
-            guitar to playing thousands!
+            guitar to playing thousands of songs!
           </p>
 
           <p>

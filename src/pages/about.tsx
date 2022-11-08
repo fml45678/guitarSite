@@ -40,7 +40,7 @@ const About: NextPage = () => {
           </li>
           <li>
             If you miss a lesson or cannot make your lesson time, you can come
-            to another lesson during the same week if available. Lesson material
+            to another lesson during the same week if space is available. Lesson material
             will also be made available online to registered students
           </li>
           <li>
