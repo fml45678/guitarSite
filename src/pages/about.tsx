@@ -22,8 +22,11 @@ const About: NextPage = () => {
           be proficient in playing many songs. We will learn all of the most
           popular chords while also learning how to read music and music theory.
           Learning guitar in a group environment is an enjoyable and motivating
-          experience.
+          experience. You will choose Sundays, Mondays, or Tuesdays for your
+          main lesson day, and everyone is invited to a Thursday review lesson.
         </p>
+
+        <h3>$60 a month + One time $20 registration fee</h3>
 
         <span className={styles.rulesTitle}>Group Guitar Lessons Rules</span>
 
@@ -40,8 +43,8 @@ const About: NextPage = () => {
           </li>
           <li>
             If you miss a lesson or cannot make your lesson time, you can come
-            to another lesson during the same week if space is available. Lesson material
-            will also be made available online to registered students
+            to another lesson during the same week if space is available. Lesson
+            material will also be made available online to registered students
           </li>
           <li>
             Payments will be drafted monthly and must be paid before attending a
