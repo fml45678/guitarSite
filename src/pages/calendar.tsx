@@ -21,19 +21,19 @@ const Calendar: NextPage = () => {
           added during some holidays.
         </p>
         <ul className={styles.calendar}>
-          <li>Class 1: Sun Nov 20 - 22 Rev Nov, Fri 25</li>
-          <li>Class 2: Sun Nov 26 - 29 Rev Dec 1</li>
-          <li>Class 3: Sun Dec 4 - 6 Rev Dec 8</li>
-          <li>Class 4: Sun Dec 11 - 13 Rev Dec 15</li>
-          <li>Class 5: Sun Dec 18- 20 Rev Dec 22</li>
-          <li>Class 6: Sun Dec 25 - 27 (Add Extra Day) Rev Dec 29</li>
-          <li>Class 7: Sun Jan 1 - 4 (Add Extra Day) Rev Dec 5</li>
-          <li>Class 8: Sun Jan 8 - 10 Rev Dec 12</li>
-          <li>Class 9: Sun Jan 15 - 17 Rev Dec 19</li>
-          <li>Class 10: Sun Jan 22 - 24 Rev Jan 26</li>
-          <li>Class 11: Sun Jan 29 - 31 Rev Feb 2</li>
-          <li>Class 12: Sun Feb 5 - 7 Rev Feb 9</li>
-          <li>Optional Performance Sat Feb 11</li>
+          <li>Class 1: Sun Dec 4 - 6 Rev Dec 8</li>
+          <li>Class 2: Sun Dec 11 - 13 Rev Dec 15</li>
+          <li>Class 3: Sun Dec 18- 20 Rev Dec 22</li>
+          <li>Class 4: Sun Dec 25 - 27 (Add Extra Day) Rev Dec 29</li>
+          <li>Class 5: Sun Jan 1 - 4 (Add Extra Day) Rev Dec 5</li>
+          <li>Class 6: Sun Jan 8 - 10 Rev Dec 12</li>
+          <li>Class 7: Sun Jan 15 - 17 Rev Dec 19</li>
+          <li>Class 8: Sun Jan 22 - 24 Rev Jan 26</li>
+          <li>Class 9: Sun Jan 29 - 31 Rev Feb 2</li>
+          <li>Class 10: Sun Feb 5 - 7 Rev Feb 9</li>
+          <li>Class 11: Sun Feb 12-14 Rev Feb 16</li>
+          <li>Class 12: Sun Feb 19 - 21 Rev Feb 23</li>
+          <li>Optional Performance Sat Feb 25</li>
         </ul>
       </div>
     </>

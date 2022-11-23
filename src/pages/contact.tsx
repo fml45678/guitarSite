@@ -17,7 +17,10 @@ const Contact: NextPage = () => {
       <div className={styles.container}>
         <span className={styles.p}>
           If you have any questions about lessons please send an email to
-          <a href="mailto:info@lemieuxstudios.com"> info@lemieuxstudios.com</a>
+          <a className={styles.link} href="mailto:info@massonlemieux.com">
+            {" "}
+            info@massonlemieux.com
+          </a>
         </span>
       </div>
     </>

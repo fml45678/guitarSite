@@ -7,3 +7,6 @@
   width: 40vw;
   line-height: calc(8px + 3vw);
 }
+.link {
+  color: rgb(215, 94, 19);
+}
