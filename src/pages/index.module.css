@@ -13,13 +13,14 @@
   background-color: rgb(198, 198, 243);
   border-style: none;
   border-radius: 2vw;
+  padding: 1vw;
   cursor: pointer;
 }
 @media screen and (min-width: 500px) {
   .signUp:hover {
-    background-color: rgb(255, 0, 43);
+    background-color: rgb(255, 129, 10);
     color: white;
-    font-size: 2.2vw;
+    /* font-size: 2.2vw; */
   }
 }
 @media screen and (max-width: 500px) {
