@@ -16,7 +16,7 @@ const Calendar: NextPage = () => {
       <NavBar />
       <div className={styles.mainContainer}>
         <p className={styles.description}>
-          Each student will pick Sundays, Mondays, or Tuesdays for the main
+          Each student will pick Sundays, Mondays, or Tuesdays for their main
           lesson, and Thursdays will be a group review day. Extra days have been
           added during some holidays.
         </p>

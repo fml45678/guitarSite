@@ -3,7 +3,7 @@
   justify-content: center;
   column-gap: 9vw;
   align-items: flex-end;
-  background-color: rgba(122, 117, 174, 0.4);
+  background-color: #c2def4;
 }
 .lists {
   list-style: none;
@@ -11,6 +11,9 @@
   column-gap: 2vw;
   flex-wrap: wrap;
   cursor: pointer;
+}
+.lists > *:hover {
+  color: white;
 }
 .title {
   width: 5vw;

@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   row-gap: 3vw;
+  background-color: #b0b6ba;
+  height: 100vh;
 }
 .mainContent > * {
   width: 55vw;

@@ -17,6 +17,11 @@ const SignUp: NextPage = () => {
       <div className={styles.container}>
         <h2>Choose your lesson day</h2>
         <h3>$60 a month + One time $20 registration fee</h3>
+        <h4>
+          The following links will take you to Paypal to set up monthly
+          payments. <br /> Choose the day you would like to have your main
+          lesson.
+        </h4>
         <div className={styles.days}>
           <Link href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2VF03638W82253700MLSHVZI">
             <button>Sundays</button>
