@@ -72,6 +72,21 @@ const About: NextPage = () => {
           <li>Tuner (optional)</li>
           <li>Capo (optional)</li>
         </ul>
+        <h2 className={styles.rulesTitle}>Instructor</h2>
+        <div className={styles.instructor}>
+          <img src="" alt="" />
+          <div>
+            <h4>Masson LeMieux</h4>
+            <ul className={styles.rules}>
+              <li>Has been teaching Guitar Lessons for over 10 years </li>
+              <li>
+                Has taught privately, at the elementary, middle, high school,
+                and university level
+              </li>
+              <li>Has a bachelors and masters degree in guitar performance.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   );

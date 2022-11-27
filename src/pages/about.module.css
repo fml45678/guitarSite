@@ -22,3 +22,9 @@
   line-height: calc(8px + 3vw);
   margin-bottom: 5vw;
 }
+.instructor {
+  display: flex;
+}
+.instructor > div {
+  width: 40vw;
+}
