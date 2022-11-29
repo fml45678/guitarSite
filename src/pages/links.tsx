@@ -105,25 +105,25 @@ const Links: NextPage = () => {
           <a href="https://www.instagram.com/fml45678/">
             <div className={styles.itemContainer}>
               <img className={styles.logo} src="InstagramLogo.png" alt="" />
-              <span className={styles.title}>Masson's Instagram</span>
+              <span className={styles.title}>Massons Instagram</span>
             </div>
           </a>
           <a href="https://www.instagram.com/yiswork/">
             <div className={styles.itemContainer}>
               <img className={styles.logo} src="InstagramLogo.png" alt="" />
-              <span className={styles.title}>Yiseul's Instagram</span>
+              <span className={styles.title}>Yiseuls Instagram</span>
             </div>
           </a>
           <a href="https://www.tiktok.com/@massonlemieux">
             <div className={styles.itemContainer}>
               <img className={styles.logo} src="TikTok.jpg" alt="" />
-              <span className={styles.title}>Masson's Tiktok</span>
+              <span className={styles.title}>Massons Tiktok</span>
             </div>
           </a>
           <a href="https://www.tiktok.com/@spongeprintstudio">
             <div className={styles.itemContainer}>
               <img className={styles.logo} src="TikTok.jpg" alt="" />
-              <span className={styles.title}>Yiseul's Tiktok</span>
+              <span className={styles.title}>Yiseuls Tiktok</span>
             </div>
           </a>
           <a href="https://music.apple.com/us/album/summer-to-spring/1552966853">
@@ -135,13 +135,13 @@ const Links: NextPage = () => {
           <a href="https://massonlemieux.com">
             <div className={styles.itemContainer}>
               <img className={styles.logo} src="" alt="" />
-              <span className={styles.title}>Masson's Website</span>
+              <span className={styles.title}>Massons Website</span>
             </div>
           </a>
           <a href="https://yiseullemieux.com">
             <div className={styles.itemContainer}>
               <img className={styles.logo} src="" alt="" />
-              <span className={styles.title}>Yiseul's Website</span>
+              <span className={styles.title}>Yiseuls Website</span>
             </div>
           </a>
         </div>
