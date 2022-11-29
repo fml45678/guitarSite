@@ -5,7 +5,8 @@
   width: 33vw;
 }
 .headers {
-  font-size: 8vw;
+  font-size: 7vw;
+  text-transform: uppercase;
 }
 .itemContainer {
   display: flex;

@@ -72,22 +72,26 @@ const Links: NextPage = () => {
         <div className={styles.groupContainer}>
           <a href="https://www.youtube.com/@lemieuxstudios6476">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="youtubeLogo.png" alt="" />
-              <span className={styles.title}>LeMieux Studios Youtube</span>
+              <img className={styles.logo} src="youtube.jpg" alt="" />
+              <span className={styles.title}>
+                LeMieux Studios <br /> Youtube
+              </span>
             </div>
           </a>
           <a href="https://www.youtube.com/@lifemattersamplingstation4844">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="youtubeLogo.png" alt="" />
+              <img className={styles.logo} src="youtube.jpg" alt="" />
               <span className={styles.title}>
-                Life Matter Sampling Station Youtube
+                Life Matter Sampling Station <br /> Youtube
               </span>
             </div>
           </a>
           <a href="https://www.youtube.com/channel/UC_Vy5Ay28Op5LbMVINnsR8Q">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="youtubeLogo.png" alt="" />
-              <span className={styles.title}>Masson LeMieux Youtube</span>
+              <img className={styles.logo} src="youtube.jpg" alt="" />
+              <span className={styles.title}>
+                Masson LeMieux <br /> Youtube
+              </span>
             </div>
           </a>
           <a href="https://massonlemieux.com/podcast">
@@ -112,19 +116,19 @@ const Links: NextPage = () => {
           </a>
           <a href="https://www.tiktok.com/@massonlemieux">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="TikTokLogo.png" alt="" />
+              <img className={styles.logo} src="TikTok.jpg" alt="" />
               <span className={styles.title}>Masson's Tiktok</span>
             </div>
           </a>
           <a href="https://www.tiktok.com/@spongeprintstudio">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="TikTokLogo.png" alt="" />
+              <img className={styles.logo} src="TikTok.jpg" alt="" />
               <span className={styles.title}>Yiseul's Tiktok</span>
             </div>
           </a>
           <a href="https://music.apple.com/us/album/summer-to-spring/1552966853">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="summer.jpg.webp" alt="" />
+              <img className={styles.logo} src="summer.jpg" alt="" />
               <span className={styles.title}>Summer to Spring Album</span>
             </div>
           </a>
