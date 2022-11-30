@@ -184,10 +184,10 @@ const Links: NextPage = () => {
         </div>
         <h2 className={styles.headers}>Questions?</h2>
         <div className={styles.questions}>
-          <span className={styles.title}>
+          <span className={styles.qText}>
             Interested in Art or something else?
           </span>
-          <span className={styles.title}>email lemieuxstudios@gmail.com</span>
+          <span className={styles.qText}>email lemieuxstudios@gmail.com</span>
         </div>
       </div>
     </div>

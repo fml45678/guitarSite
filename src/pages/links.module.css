@@ -1,5 +1,10 @@
 .title {
   font-size: 4vw;
+  width: 33vw;
+  text-align: center;
+}
+.qText {
+  font-size: 4vw;
 }
 .logo {
   width: 33vw;
@@ -18,12 +23,13 @@
   justify-content: space-around;
   flex-wrap: wrap;
   row-gap: 5vw;
+  column-gap: 3vw;
 }
 .groupContainerDonate {
   display: flex;
   /* justify-content: space-around; */
   flex-wrap: wrap;
-  column-gap: 5vw;
+  column-gap: 9vw;
 }
 .container {
   display: flex;
