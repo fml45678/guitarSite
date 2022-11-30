@@ -1,5 +1,5 @@
 .title {
-  font-size: 3vw;
+  font-size: 4vw;
 }
 .logo {
   width: 33vw;
@@ -37,5 +37,10 @@
   justify-content: center;
 }
 .upcoming {
-  line-height: 4vw;
+  line-height: 5vw;
+}
+.questions {
+  line-height: 5vw;
+  display: flex;
+  flex-direction: column;
 }

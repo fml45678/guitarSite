@@ -58,13 +58,13 @@ const Links: NextPage = () => {
           <a href="https://www.paypal.com/donate/?hosted_button_id=8JGJVSZ9ZCYRY">
             <div>
               {/* <span className={styles.title}>PayPal</span> */}
-              <img className={styles.logo} src="paypal.png" alt="" />
+              <img className={styles.logo} src="paypal.jpg" alt="" />
             </div>
           </a>
           <a href="https://venmo.com/u/MassonLeMieux">
             <div>
               {/* <span className={styles.title}>Venmo</span> */}
-              <img className={styles.logo} src="venmo.png" alt="" />
+              <img className={styles.logo} src="venmo.jpg" alt="" />
             </div>
           </a>
         </div>
@@ -104,13 +104,13 @@ const Links: NextPage = () => {
           </a>
           <a href="https://www.instagram.com/fml45678/">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="InstagramLogo.png" alt="" />
+              <img className={styles.logo} src="instagram.jpg" alt="" />
               <span className={styles.title}>Massons Instagram</span>
             </div>
           </a>
           <a href="https://www.instagram.com/yiswork/">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="InstagramLogo.png" alt="" />
+              <img className={styles.logo} src="instagram.jpg" alt="" />
               <span className={styles.title}>Yiseuls Instagram</span>
             </div>
           </a>
@@ -134,13 +134,13 @@ const Links: NextPage = () => {
           </a>
           <a href="https://massonlemieux.com">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="" alt="" />
+              <img className={styles.logo} src="websiteM.jpg" alt="" />
               <span className={styles.title}>Massons Website</span>
             </div>
           </a>
           <a href="https://yiseullemieux.com">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="" alt="" />
+              <img className={styles.logo} src="websiteY.jpg" alt="" />
               <span className={styles.title}>Yiseuls Website</span>
             </div>
           </a>
@@ -181,6 +181,13 @@ const Links: NextPage = () => {
             <span className={styles.title}>Immersive Exhibitions</span>
             <img src="" alt="" />
           </div>
+        </div>
+        <h2 className={styles.headers}>Questions?</h2>
+        <div className={styles.questions}>
+          <span className={styles.title}>
+            Interested in Art or something else?
+          </span>
+          <span className={styles.title}>email lemieuxstudios@gmail.com</span>
         </div>
       </div>
     </div>
