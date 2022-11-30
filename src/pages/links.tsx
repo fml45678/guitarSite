@@ -116,13 +116,13 @@ const Links: NextPage = () => {
           </a>
           <a href="https://www.tiktok.com/@massonlemieux">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="TikTok.jpg" alt="" />
+              <img className={styles.logo} src="tikTok.jpg" alt="" />
               <span className={styles.title}>Massons Tiktok</span>
             </div>
           </a>
           <a href="https://www.tiktok.com/@spongeprintstudio">
             <div className={styles.itemContainer}>
-              <img className={styles.logo} src="TikTok.jpg" alt="" />
+              <img className={styles.logo} src="tikTok.jpg" alt="" />
               <span className={styles.title}>Yiseuls Tiktok</span>
             </div>
           </a>
