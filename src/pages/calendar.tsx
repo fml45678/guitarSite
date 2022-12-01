@@ -20,6 +20,12 @@ const Calendar: NextPage = () => {
           lesson, and Thursdays will be a group review day. Extra days have been
           added during some holidays.
         </p>
+        <h4>Class Times:</h4>
+        <div>
+          <span>Mondays, Tuesdays, & Thursdays - 6:30 CT / 7:30 ET</span>
+          <br />
+          <span>Sundays - 2:00 CT / 3:00 ET</span>
+        </div>
         <ul className={styles.calendar}>
           <li>Class 1: Sun Dec 4 - 6 Rev Dec 8</li>
           <li>Class 2: Sun Dec 11 - 13 Rev Dec 15</li>
