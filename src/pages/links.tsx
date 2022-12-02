@@ -145,7 +145,7 @@ const Links: NextPage = () => {
             </div>
           </a>
         </div>
-        <h2 className={styles.headers}>Upcoming Stuff!!!!</h2>
+        {/* <h2 className={styles.headers}>Upcoming Stuff!!!!</h2>
         <div className={styles.upcoming}>
           <div>
             <span className={styles.title}>Puppet Shows</span>
@@ -181,7 +181,7 @@ const Links: NextPage = () => {
             <span className={styles.title}>Immersive Exhibitions</span>
             <img src="" alt="" />
           </div>
-        </div>
+        </div> */}
         <h2 className={styles.headers}>Questions?</h2>
         <div className={styles.questions}>
           <span className={styles.qText}>
