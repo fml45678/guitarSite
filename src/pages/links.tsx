@@ -70,7 +70,7 @@ const Links: NextPage = () => {
         </div>
         <h2 className={styles.headers}>Things to Entertain You!!!</h2>
         <div className={styles.groupContainer}>
-          <a href="https://www.youtube.com/@lemieuxstudios6476">
+          <a href="https://www.youtube.com/@lemieuxstudios">
             <div className={styles.itemContainer}>
               <img className={styles.logo} src="youtube.jpg" alt="" />
               <span className={styles.title}>
@@ -78,7 +78,7 @@ const Links: NextPage = () => {
               </span>
             </div>
           </a>
-          <a href="https://www.youtube.com/@lifemattersamplingstation4844">
+          <a href="https://www.youtube.com/@lifemattersamplingstation">
             <div className={styles.itemContainer}>
               <img className={styles.logo} src="youtube.jpg" alt="" />
               <span className={styles.title}>
