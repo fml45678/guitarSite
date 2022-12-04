@@ -3,6 +3,11 @@
   width: 33vw;
   text-align: center;
 }
+.titleTop {
+  font-size: 4vw;
+  width: 53vw;
+  text-align: center;
+}
 .qText {
   font-size: 4vw;
 }

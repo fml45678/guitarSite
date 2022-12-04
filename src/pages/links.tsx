@@ -14,6 +14,10 @@ const Links: NextPage = () => {
       </Head>
 
       <div className={styles.container}>
+        <p className={styles.titleTop}>
+          Help us raise money by buying any item we sell and we will give you a
+          Lifetime membership to get discounts on everything we sell, forever.
+        </p>
         <h2 className={styles.headers}>Places to buy things!</h2>
         <div className={styles.groupContainer}>
           <a href="https://etsy.com/shop/treelyland">
